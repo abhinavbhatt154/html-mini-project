@@ -1,0 +1,54 @@
+body{
+    background-color:black; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.container{
+    background-color: rgba(128, 128, 128, 0.458);
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 370px;
+    padding:25px ;
+    padding-right: 30;
+    border-radius: 8px;
+    border: 3px solid black;
+    margin: 100px auto;
+    box-shadow: auto;
+    margin-top: 140px;
+}
+.container h1{
+    text-align: center;
+    color: white;
+}
+.container h4{
+    text-align: center;
+    color: white;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    width: 370x;
+    margin-top:10px ; 
+    cursor: pointer;
+    border-radius:4px ;
+    color: white;
+    font-size: large;
+    justify-content: space-between;
+}
+.container input{
+    width: 370px ;
+    margin-bottom: 13px;
+    margin-top: 3px;
+}
+.container label{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.sign-up{
+    color: blue;
+}
+.change-password{
+    color: blue;
+}
